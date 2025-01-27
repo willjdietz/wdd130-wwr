@@ -6,8 +6,10 @@ p { font-size: 30px;
 h1 { color:fuchsia;
     background-color: darkgray;
     text-align: center;
+    font-size: 4em;
 
 }
+
 body {background-color: beige;}
-img{text-align: ;}
+img{text-align: center}
 main{background-color: black;}
