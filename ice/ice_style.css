@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-color: #5CA1D7;
+    color: white;
+}
+
+
+h1:hover{
+    background-color: white;
+}
+.gospel-list{
+    color: black;
+}
+
+.lower-paragraph{
+    font-size: 24px;
+}
+
