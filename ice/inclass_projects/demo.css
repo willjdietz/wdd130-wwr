@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    width: 500px;
+    background-color: lightblue;
+    padding: 50px;
+    border: 10px solid black;
+    margin: 100px;
+}
