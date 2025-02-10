@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 #content { 
     max-width: 1600px;
     margin: 0 auto;
 }
+.home-title {
+    font-family: 'Inter', 'Urbanist' 'Times New Roman',;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg h2 {
+    font-family: 'inter', 'Urbanist', sans-serif;
+}
 nav a {
     text-align: center;
     color: white;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -24,6 +35,8 @@ main section{
 }
 body {
     background-color: #E3DEBC;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #2C576B;
@@ -38,20 +51,29 @@ nav a:hover{
 footer {
     background-color: #2C576B;
     color: white;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 .msg {
     background-color: #839970;
+    line-height: 1.5em;
+    padding: 35px;
 }
-.book {
-    background-color: #2C576B;
-    color: white;
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .book:hover {
     background-color: #73542F;
 }
-.join {
+.book, .join {
     background-color: #2C576B;
     color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
     background-color: #73542F;
@@ -73,7 +95,27 @@ footer {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.social-image {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+.card-img {
+    border: solid black 10px;
+}
+main section img {
+    box-sizing: border-box;
 }
