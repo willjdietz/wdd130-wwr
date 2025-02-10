@@ -5,17 +5,20 @@
     margin: 0 auto;
 }
 .home-title {
-    font-family: 'Inter', 'Urbanist' 'Times New Roman',;
+    font-family: 'inter', 'urbanist' 'Times New Roman',;
     font-size: 2em;
     margin-top: 10px;
 }
 .msg h2 {
-    font-family: 'inter', 'Urbanist', sans-serif;
+    font-family: 'inter', 'urbanist', sans-serif;
 }
 nav a {
     text-align: center;
     color: white;
     padding: 35px;
+}
+nav {
+    text-align: center;
 }
 #hero-msg h1 {
     text-align: center;
@@ -101,6 +104,7 @@ footer {
     width: 100%;
 }
 h2 {
+    font-family: 'urbanist', 'inter', 'Times New Roman', serif;
     margin: 0;
     padding: 0;
 }
@@ -114,8 +118,11 @@ h2 {
     margin: 200px;
 }
 .card-img {
-    border: solid black 10px;
+    border: solid #73542F 10px;
 }
 main section img {
     box-sizing: border-box;
+}
+.mountains {
+    margin: 150px;
 }
