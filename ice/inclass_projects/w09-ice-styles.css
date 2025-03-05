@@ -1,0 +1,27 @@
+
+
+section {
+    text-align: center;
+}
+
+#city-img {
+    width: 100%;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    border: solid black 1px;
+    background-color: #1376ad;
+    overflow: hidden;
+}
+.top {
+    text-align: center;
+    grid-row: 1/2;
+    align-self: baseline;
+    align-content: baseline;
+}
+.bottom {
+    text-align: center;
+    grid-row: 2/2;
+}
