@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sanchez:ital,wght@0,100..900;1,100..900&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0;
+}
+
+#content-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav a {
+    text-align: center;
+    padding: 35px;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #D1D1C7
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: #1f2421;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 80px;    
+}
+
+#content-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    padding: 20px;
+    background-color: #734F2F;
+  }
+  
+  #msg-1 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #D1D1C7;
+  }
+  
+  #msg-1 h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 50px;
+    font-family: 'changa', 'urbanist', 'Times New Roman';
+  }
+  
+  #msg-1 .p1 {
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'sanchez', sans-serif, 'Times New Roman' ;
+  }
+  
+  #msg-1 .home-img {
+    width: 650px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 8px; 
+  }
+  
+  #msg-2 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #D1D1C7;
+  }
+  
+  #msg-2 h2 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+    font-family: 'changa', 'urbanist', 'Times New Roman';
+  }
+  
+  #msg-2 p {
+    line-height: 1.6;
+    text-align: start;
+    font-family: 'sanchez', sans-serif, 'Times New Roman' ;
+  }
+  
+  #msg-2 .home-img-2 {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+  }
+
+  footer {
+    background-color: #1f2421;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site-plan-link {
+    color: white;
+}
+.site-plan-link:hover {
+    background-color: #D1D1C7;
+}
+.contact-us-link {
+    color: white;
+}
+.contact-us-link:hover {
+    background-color: #D1D1C7;
+}
+ 
