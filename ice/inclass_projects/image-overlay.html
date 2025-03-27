@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(47, 127, 78);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: top;
+}
+
+.img-msg {
+    text-align: center;
+    align-content: baseline;
+}
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="images/rsz_sprinkler.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Sprinkler Services</div>
+    <p class="img-msg"> Our sprinkler maintenance service ensures your system operates at peak efficiency, protecting your investment and preserving 
+        your lawn's health. Our expert technicians meticulously inspect and clean your sprinkler heads, check for leaks and blockages, and adjust watering schedules 
+        to accommodate seasonal changes. By entrusting your sprinkler maintenance to us, you'll enjoy consistent, reliable performance, optimal water usage, and a healthy, vibrant lawn all year round.</p>
+  </div>
+</div>
+
+</body>
+</html>
