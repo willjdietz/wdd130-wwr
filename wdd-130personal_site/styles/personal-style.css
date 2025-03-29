@@ -153,7 +153,7 @@ header {
   width: 300px;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgb(47, 127, 78);
+  background-color: rgb(18, 87, 44);
   margin-left: 95px;
   margin-top: 75px;
   border-radius: 8px;
@@ -178,6 +178,13 @@ header {
 .img-msg {
   text-align: center;
   align-content: baseline;
+  color: white;
+}
+
+#service-content {
+  max-width: 1600px;
+  margin: 0;
+  background-color: #734F2F;
 }
 
 #content-3 {
@@ -201,4 +208,34 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   height: 300px;
+  text-align: start;
+  margin-bottom: 20px;
+  color: white;
+}
+
+ 
+#packages p {
+  font-family: 'sanchez', sans-serif, 'Times New Roman' ;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.h {
+  font-family: 'changa', 'urbanist', 'Times New Roman';
+}
+
+#pack-h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-style: bold;
+  font-family: 'changa', 'urbanist', 'Times New Roman'; 
+}
+
+#h2-p2 {
+  background-color: #1f2421;
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+  margin: 5px 5px 5px 5px;
 }
