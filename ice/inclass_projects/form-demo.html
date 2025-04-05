@@ -14,39 +14,65 @@
 
         label, input, textarea, button {
             display: block;
-            width: 20rem;
+            width: 30rem; /* Increase this value as needed */
+            margin-bottom: 0.5rem;
         }
-        #content {
-            border: 5px solid black;
+        #contact-content {
             margin: 0 auto;
-            width: 23rem;
+            width: 100%;
             padding: 1rem;
         }
         #feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;      
-}
-.moveDown {
-    margin-top: 3em;
-}
+        background-color: antiquewhite;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: .5em;
+        /* make this element invisible until we are ready for it */
+        display: none;      
+        }
+        .moveDown {
+            margin-top: 3em;
+        }
+
+        input,
+        textarea,
+        button {
+            display: block;
+            max-width: 4100%; /* Increased by 20% from 40rem */
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        input[type="text"],
+        button {
+            height: 5rem;
+            padding: 1rem;
+            font-size: 1.2rem;
+        }
+
+        textarea {
+            height: 20rem;
+            padding: 1rem;
+            font-size: 1.2rem;
+        }
+        .contact-h1 {
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
     <div id="feedback"></div>
-        <div id="content">
-            <h1>Contact Us</h1>
+        <div id="contact-content">
+            <h1 class="contact-h1">Contact Us</h1>
             <form  action="thankyou.html" class="contact-form">
-                <label for="fname">First Name: </label>
-                <input type="text" id="fname" name="fname">
+                <label for="name">Name: </label>
+                <input type="text" id="fname" name="name">
 
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
 
                 <label for="comment-box">Comment Here</label>
                 <textarea name="comment-box" id="comment-box"></textarea>

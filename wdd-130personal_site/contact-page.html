@@ -3,37 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Service Page</title>
+    <link rel="stylesheet" href="styles/personal-style.css">
 </head>
-<body>
-    <div id="content">
-        <header>
-            <a href="/wdd130/wdd-130personal_site/index.html" id="logo_link">
-                <img class="logo" src="/wdd130/wdd-130personal_site/images/personal-logo.png"  alt="Dietz Landscape+Design">
-            </a>
-            <nav>
-                <a href="/wdd130/wdd-130personal_site/index.html">Home</a>
-                <a href="/wdd130/wdd-130personal_site/service-page.html">Service</a>
-                <a href="/wdd130/wdd-130personal_site/contact-page.html">Contact Us</a>
-            </nav>
-        </header>
-        <div id="feedback"></div>
-        <div id="content">
-            <h1>Contact Us</h1>
-            <form  action="thankyou.html" class="contact-form">
-                <label for="flname">First & Last Name: </label>
-                <input type="text" id="flname" name="flname">
+<body id="contact-body">
+    <header>
+        <a href="index.html" id="logo_link">
+            <img class="logo" src="images/personal-logo.png"  alt="Dietz Landscape+Design">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="service-page.html">Service</a>
+            <a href="contact-page.html">Contact Us</a>
+        </nav>
+    </header>
+    <div id="feedback"></div>
+    <div id="contact-content">
+        <h1 class="contact-h1">Contact Us</h1>
+        <h2 class="contact-h2">We look forward to helping you create your dream landscape for your home!</h2>
+        <form  action="index.html" class="contact-form">
+            <label for="name">Name: </label>
+            <input type="text" id="fname" name="name">
 
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
 
-                <label for="comment-box">Comment Here</label>
-                <textarea name="comment-box" id="comment-box"></textarea>
+            <label for="comment-box">Comment Here</label>
+            <textarea name="comment-box" id="comment-box"></textarea>
 
-                <button type="submit">Request info</button>
+            <button type="submit">Send</button>
 
-            </form> 
-        </div>
+        </form> 
+    </div>
+</body>
         <footer>
             <p>Dietz Landscape+Design &copy; 2025 - William Dietz</p>
             <img src="" alt="">
@@ -49,6 +51,7 @@
                 <a href="https://instagram.com" target="_blank">
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
+            </div>
         </footer>
     </div>
 </body>

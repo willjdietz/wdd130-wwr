@@ -239,3 +239,72 @@ header {
   border-radius: 20px;
   margin: 5px 5px 5px 5px;
 }
+#contact-body {
+  background-color: #734F2F;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label, input, textarea, button {
+  display: block;
+  width: 30rem; /* Increase this value as needed */
+  margin-bottom: 0.5rem;
+}
+#contact-content {
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem;
+}
+#feedback {
+background-color: #ddd;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+padding: .5em;
+display: none;      
+}
+.moveDown {
+  margin-top: 3em;
+}
+button {
+  background-color: rgb(18, 87, 44);
+  color: white;
+}
+input,
+textarea {
+  background-color: #ddd;
+}
+input,
+textarea,
+button {
+  display: block;
+  max-width: 100%; 
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 20px;
+}
+
+input[type="text"],
+button {
+  height: 5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+textarea {
+  height: 20rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.contact-h1 {
+  text-align: center;
+  font-family: 'changa', 'urbanist', 'Times New Roman'; 
+}
+.contact-h2 {
+  text-align: center;
+  font-family: 'sanchez', sans-serif, 'Times New Roman' 
+}
